@@ -9,17 +9,28 @@ html, body {
   margin: 0;
   font-family: 'Inter', sans-serif;
 
-  /* ❌ odstráň toto */
-  /* overflow: auto; */
-  background-color: aqua;
+  
+background-color: aqua;
 
   overflow-x: hidden;
+  flex-direction: column;
   scrollbar-width: none;
+
+ display: flex;
+}
+body{
+  background-color: black ;
+   /* padding: 10px;
+   height: 30px;
+   width: 100%; */
+   gap: 10px;
+
+
+   display: flex;
 }
 /* pre Chrome, Edge, Safari */
 body::-webkit-scrollbar {
-  width: 0; /* skryje scroll bar */
-  height: 0;
+ 
   display: none; /* niekedy potrebné */
 }
 
@@ -58,14 +69,21 @@ html {
 
 /* tvoj app container */
 
+.lenpagenabreak{
+  display: none;
+
+}
 
 
 
-
+#druhacstr{
+  display: none;
+  height: 0px;
+}
 .kontainer{
-    /* flex: 1;/ */
+    flex: 1;
     pointer-events: auto;
-    /* display: grid; */
+
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -75,15 +93,7 @@ html {
     /* grid-template-rows: auto auto auto; */
     background-color: red;
 }
-#druhacstr{
-  height: fit-content;
-  display: flex;
-  padding: 0px 20px 20px 20px;
-  gap: 10px;
-  flex-direction: column;
-  width: 100%;
-  background-color: var(--skusam)
-}
+
 
 
 body.no-scroll {
@@ -95,88 +105,4 @@ body.no-scroll {
   height: 500px;
   width: 100%;
   background-color: aqua;
-}
-@media (min-width: 600px) {
-  #druhacstr{
-  display: none;
-  height: 0px;
-}
- .kontainer {
-/* display: none; */
-opacity: 0.5;
-
-pointer-events: none;
-height: 100vh !important;
-}
-html, body {
- height: 100vh !important;
-  margin: 0;
-font-family: 'Inter', sans-serif;
-  overflow: auto; /* rolovanie zostáva */
-  scrollbar-width: none; /* Firefox */
-  /* background-color: rgb(242, 0, 0); */
-}
-#app {
-  display: none;
-}
-.lenpagenabreak{
-  height: 100vh;
-  width: 100%;
-  /* background-color: aqua; */
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-
-  align-items: center;
-}
-.upozornenejo{
-
-  background-color: var(--blur);
-  border-radius: 22px;
-  box-shadow: var(    --tien);
-  height: 45px;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 0px 10px;
-
-
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    white-space: nowrap;
-    /* font-size: 13px; */
-    font-weight: 400;
-    font-size: 13px;
-    color: WHITE;
-}
-.ikonnkkna{
-  position: absolute;
-  height: fit-content;
-  width: fit-content;
-  bottom: 20px;
-  gap: 10px;
-  align-items: center;
-  right: 20px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  border-radius: 22px;
- background-color: var(--blur);
-    box-shadow: var(    --tien);
-        font-size: 13px;
-}
-.tubuudinkoy{
-  height: fit-content;
-  width: fit-content;
-  color: white;
-   display: flex;
-   padding: 7px;
-  justify-content: center;
-  border-radius: 22px;
- align-items: center;
-    background-color: var(--blur);
-    box-shadow: var(    --tien);
-}
 }

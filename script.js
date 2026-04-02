@@ -22,9 +22,10 @@ import {grafdata,Setgraf} from './ulozenie/graf.js'
 
 import {Gradinetfunkcia} from './components/gradinetfunkcia/gradinetfunkcia.js'
 
+
 const lenpagenabreak = document.querySelector(".lenpagenabreak")
 console.log(lenpagenabreak);
- lenpagenabreak.style.background = Gradinetfunkcia();
+//  lenpagenabreak.style.background = Gradinetfunkcia();
 
 
 
@@ -45,6 +46,8 @@ tubuudinkoy.forEach(element => {
 
 const body = document.body;
 
+console.log(body);
+
 
 
 
@@ -54,11 +57,12 @@ setInterval(() => {
   app.style.background = Gradinetfunkcia();
 }, 10000)
 
-app.style.background = Gradinetfunkcia()
+
+// app.style.background = Gradinetfunkcia()
 const kontainer = document.createElement("div")
 kontainer.className = "kontainer"
 
-app.appendChild(kontainer)
+// app.appendChild(kontainer)
 
 const api = "1b7dcddb27a5652879e1c24b4c14ad52"
 
@@ -146,7 +150,7 @@ Gradinetfunkcia()
     body.append(Stred())
     body.append(Dole())
     body.append(Ostatnekrajiny())
-    // dokument.append(Gridmapovanie())
+ 
     
     
 
