@@ -1,0 +1,213 @@
+.dole{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+     color: white;
+    gap: 10px;
+    
+
+}
+.texicekhore{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+         padding: 0px 10px;
+    justify-content: space-between;
+    /* padding: 18px; */
+    background-color: var(--blur);
+        box-shadow: var( --tien);
+    /* background-color: rgb(255, 0, 0); */
+       border-radius: var(  --radius);
+    /* color: white; */
+}
+
+.uakzak{
+    width: 100%;
+    border-radius: var(  --radius);
+    height: 130px;
+    display: flex;
+    padding: 15PX;
+    gap: 10px;
+        box-shadow: var( --tien);
+    flex-direction: column;
+    background-color: var(--blur);
+}
+.loobhbhj{
+    font-size: 9px;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.wraperkoko{
+    display: flex;
+    flex-direction: row;
+}
+.tujeinkaaa{
+      transform: rotateZ(45deg);
+    height: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(183, 255, 0); */
+}
+.texthdole{
+    height: fit-content;
+    width: 100%;
+        gap: 10px;
+    display: flex;
+justify-content: center;
+align-items: center;
+    border-radius: 14px;
+    /* background-color: red; */
+}
+.malyobrazoktamje{
+    height: 100%;
+width: fit-content;
+
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    /* background-color: aqua; */
+    /* width: 20px; */
+    gap: 10px;
+}
+.fotkazecoo{
+    height:30px;
+    /* background-color: blue; */
+    width:30px;
+}
+.lenwrapperforkcak{
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+}
+
+.kvbsjv{
+    font-size: 9px;
+}
+.tellkokok{
+    font-size: 14px;
+}
+.textovacastniine{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    /* gap: 10px; */
+    justify-content: space-between;
+    display: flex;
+    /* background-color: blue; */
+}
+.texoooll{
+    font-size: 12px;
+    white-space: nowrap;
+    /* background-color: rgb(83, 83, 83); */
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.lokoko{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    width: fit-content;
+    /* background-color: aqua; */
+}
+.lpvjkvbhjbvhj{
+    font-size: 12px;
+    /* background-color: blue; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.llplplpmnnv{
+    font-size: 13px;
+}
+
+.swipercast {
+  flex: 1;
+  min-height: 0;   /* 🔥 KĽÚČ */
+  width: calc(100vw - 70px);
+  display: flex;
+  /* background-color: black; */
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+.coklkmmnjnjnas{
+    background-color: aqua;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+}
+.mmomnonon{
+    background-color: red;
+    height: 20px;
+    gap: 2px;
+    width: fit-content;
+    display: flex;
+    /* flex-direction: column; */
+}
+.swiper-slide {
+  background: var(--blur);
+  border-radius: 14px;
+        box-shadow: var( --tien);
+  flex-direction: column !important;
+  align-items: center  !important;
+  justify-content: center !important;
+  display: flex !important;
+  gap: 5px;
+  /* width: 100px !important; */
+  
+}
+.llllomom{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    /* background-color: blue; */
+}
+.oimmkmko{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+.dnestextoo{
+    font-size: 13px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+}
+.dnesobal{
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+    display: flex;
+    gap: 5px;
+    padding-left: 13px;
+          box-shadow: var( --tien);
+    padding-right: 13px;
+    background-color: var(--blur);
+    border-radius: 13px;
+}
+
+.datumikcmknk{
+    height: 20px;
+    width: fit-content;
+    display: flex;
+    gap: 2.5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    /* background-color: black; */
+}

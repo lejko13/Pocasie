@@ -1,0 +1,16 @@
+.kruh{
+    /* height: 40px;
+    width: 40px; */
+    border-radius: 99px;
+    /* background-color: rgb(191, 182, 182); */
+    /* border: 1.5px solid var(   --bielapfc); */
+    display: flex;
+    font-size: 20px;
+    /* background-color:var(--blur); */
+    color:  var(   --bielapfc);
+    align-items: center;
+    justify-content: center;
+
+     /* background-color:var(--blur); */
+  /* backdrop-filter: blur(100px); */
+}
