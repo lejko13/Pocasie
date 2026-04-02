@@ -2,7 +2,7 @@ export const weatherList = [
   {
     main: "Clear",
     mainSk: "Jasno",
-    img: '../public/Partly Sunny.png' ,
+    img: '/Partly Sunny.png' ,
     descriptions: [
       { text: "clear sky", textSk: "jasná obloha", }
     ]
@@ -10,7 +10,7 @@ export const weatherList = [
   {
     main: "Clouds",
     mainSk: "Oblačno",
-        img: "../public/oblacno.png" ,
+        img: "/oblacno.png" ,
     descriptions: [
       { text: "few clouds", textSk: "malá oblačnosť" },
       { text: "scattered clouds", textSk: "roztrúsené oblaky"},
