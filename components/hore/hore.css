@@ -14,7 +14,7 @@
       box-shadow: var( --tien);
     border-radius:var(  --radius);
     /* padding: 12px; */
-    display: grid;
+    display: flex;
      height: 45px;
      padding: 0px 15px;
     /* height: 40px; */
