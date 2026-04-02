@@ -78,16 +78,14 @@ const funkcia = (e) => {
 
   const scrollY = window.scrollY;
 
-body.style.position = "fixed";
+  body.style.position = "fixed";
   body.style.top = `-${scrollY}px`;
   body.style.width = "100%";
 
-const el = Owerlapinput();
-document.body.append(el);
+  const el = Owerlapinput();   // vytvorenie
+  document.body.append(el);    // pridanie do DOM
 
-requestAnimationFrame(() => {
-  el.querySelector("input")?.focus();
-});
+  el.querySelector("input")?.focus(); // použitie
 };
 
     hore.append(Stupneikona())
