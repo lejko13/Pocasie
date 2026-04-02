@@ -92,7 +92,7 @@ export const Stred  = () => {
         text:"Vietor",
         kolko:"km/h",
         druhytext:finalnecislo,
-           najdene:"../../public/Windy.png",
+           najdene:"/Windy.png",
 
 
     }))
@@ -100,7 +100,7 @@ export const Stred  = () => {
               text:"Vlhkost",
                     kolko:"%",
             druhytext:informacie.vlhkost,
-        najdene:"../../public/dazd.png"
+        najdene:"/dazd.png"
     }))
     
 
