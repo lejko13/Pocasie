@@ -43,6 +43,7 @@ tubuudinkoy.forEach(element => {
 
 
 
+const body = document.body;
 
 
 
@@ -141,10 +142,10 @@ try {
         console.log(novedatnaswiper);
         
 Gradinetfunkcia()
-    kontainer.append(Hore())
-    kontainer.append(Stred())
-    kontainer.append(Dole())
-    dokument.append(Ostatnekrajiny())
+    body.append(Hore())
+    body.append(Stred())
+    body.append(Dole())
+    body.append(Ostatnekrajiny())
     // dokument.append(Gridmapovanie())
     
     
