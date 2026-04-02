@@ -82,7 +82,12 @@ body.style.position = "fixed";
   body.style.top = `-${scrollY}px`;
   body.style.width = "100%";
 
-  body.append(Owerlapinput());
+const el = Owerlapinput();
+document.body.append(el);
+
+requestAnimationFrame(() => {
+  el.querySelector("input")?.focus();
+});
 };
 
     hore.append(Stupneikona())

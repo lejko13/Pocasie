@@ -44,7 +44,7 @@ owerlapinput.style.background = Gradinetfunkcia()
      const input = document.createElement("input")
         input.className = "input"
         
-     const wraperko = document.createElement("wraperko")
+     const wraperko = document.createElement("div")
         wraperko.className = "wraperko"
         wraperko.append(input)
         input.placeholder = "Vyhladaj mesto"; 
@@ -319,7 +319,7 @@ window.scrollTo(0, scrollY);
 
 
 // logika
-        setTimeout(() => {input.focus()}, 0)
+        // setTimeout(() => {input.focus()}, 0)
 
         klik.appendChild(wraperko)
         klik.appendChild(vysledky)
