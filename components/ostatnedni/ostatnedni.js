@@ -18,11 +18,15 @@ let dnes  = new Date()
 
 dnes.setHours(0,0,0,0)
 
+
+const body = document.body
+
+
 const novydatum = Math.floor(dnes.getTime() / 1000);
 // console.log(novydatum);
 
 const sekudny = novydatum + 432000  
-// const sekudny = novydatum + 432000  + 86400
+
 const maxdnie = new Date( sekudny * 1000)
 
 
@@ -30,19 +34,9 @@ const minden = novydatum + 86400
 const pprvyod = new Date( minden * 1000)
 
 
-// console.log(pprvyod);
-
-// console.log(maxdnie)
-
 const poslendedataMIN = pprvyod.getTime() / 1000
 const poslendedataMAX = maxdnie.getTime()  / 1000
 
-// console.log(poslendedataMIN);
-// console.log(poslendedataMAX);
-
-// console.log(dnes.getDay());
-
-// let skusam = []
 
 
 
@@ -270,10 +264,19 @@ i.minilalna = minFinla
 
 const centrum = druhapage.querySelectorAll('.centrum')
 
+
+
 const otvorenie = (paramater) => {
 
 
-  document.body.scrollTop = 0
+window.scrollTo({
+  top: 0,
+  behavior: "smooth"
+});
+
+document.documentElement.style.overflow = "hidden";
+body.style.overflow = "hidden";
+
 
   const spravne = posldeneuzfakt.find((item,index) => index === paramater)
   console.log(spravne.cislo);
@@ -311,7 +314,6 @@ mesiac:mesiac,
 den:den,
 rok:rok,
 stupne:spravne.dokopy,
-
 popis:spravne.popips,
 pocitova:spravne.pocit,
 hodnotavlhkost:spravne.vlkosthodnota,
@@ -327,6 +329,7 @@ vypcet:denuzfilter[0].name
   
 }
 
+
 for (let index = 0; index < centrum.length; index++) {
   const element = centrum[index];
   // console.log(element);
@@ -335,8 +338,6 @@ for (let index = 0; index < centrum.length; index++) {
   
   
 }
-// console.log(centrum);
-// 
-// console.log(Owerlap2());
+
   return druhapage
 }

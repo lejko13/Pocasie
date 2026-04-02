@@ -8,7 +8,7 @@
 
 }
 .texicekhore{
-    height: 45px;
+    height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -134,7 +134,7 @@ width: fit-content;
   min-height: 0;   /* 🔥 KĽÚČ */
   width: calc(100vw - 50px);
   display: flex;
-  background-color: black;
+  /* background-color: black; */
 }
 .swiper {
   width: 100%;

@@ -8,7 +8,7 @@ export const Hore  = () => {
  // elementy   
  console.log(informacie);
  
-
+const body = document.body
     const celacast = document.createElement("div")
     celacast.className = "celacast"
 
@@ -75,7 +75,8 @@ lavastarna.appendChild(texthoreprava2)
 // funkcie
   const funkcia = (e) => {
     e.stopPropagation()
-    document.body.classList.add('no-scroll');
+document.documentElement.style.overflow = "hidden";
+body.style.overflow = "hidden";
 
  
         document.body.append(Owerlapinput())

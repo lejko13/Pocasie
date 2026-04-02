@@ -3,7 +3,7 @@
 
     position: absolute;
     z-index: 100;
-    padding: 20px;
+    padding: 10px;
     gap: 10px;
     flex-direction: column;
     display: flex;
@@ -12,7 +12,7 @@
         color: rgb(255, 255, 255);
 /* background-color: red; */
 
-;padding: 20px;
+
     
 }
 .ppppvsva{
@@ -238,7 +238,9 @@ background-color: var(--blur);
     position: absolute;
     left: 10px;
 }
-@media (max-height: 795px) {
+
+
+/* @media (max-height: 795px) {
     
 .owerlap2 {
     overflow-y: auto;
@@ -248,7 +250,7 @@ background-color: var(--blur);
     display: none;
 }
 
-/* Firefox */
+
 .owerlap2 {
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -262,4 +264,4 @@ background-color: var(--blur);
 }
 
 
-}
+} */

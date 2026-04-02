@@ -33,7 +33,7 @@ import {Blikam} from '../../components/bikam/blikam.js'
 
 import {AppRender} from '../../components/render/render.js'
 
-
+import {Ostatnekrajiny} from '../../components/ostatnedni/ostatnedni.js'
 
 export const Dole  = () => {
 
@@ -44,6 +44,7 @@ const dokument = document.getElementById("druhacstr")
     const najdene = weatherList.find(item => item.main === informacie.popisakoje)
 
 
+    const body = document.body
     //    const ziskane = mpsToKmh(informacie.vietor)
        const pocitova = KelvinToCelsius(informacie.pocit)
        const maximalna = KelvinToCelsius(informacie.max)
@@ -94,7 +95,7 @@ const dokument = document.getElementById("druhacstr")
     console.log(dnesobal);
 
     
-    dnesobal.addEventListener("click" , () => {kontainerEl.remove(),dokument.innerHTML = "",AppRender(), document.body.scrollTo({
+    dnesobal.addEventListener("click" , () => {body.innerHTML = "",AppRender(),window.scrollTo({
   top: 0,
   behavior: "smooth"
 });
@@ -104,7 +105,7 @@ const dokument = document.getElementById("druhacstr")
 
     const scrolldole = () => {
        document.body.scrollTo({
-  top: document.body.scrollHeight,
+  top: 0,
   behavior: "smooth"
 });
     
@@ -286,8 +287,9 @@ for (let index = 0; index < klike.length; index++) {
     const cas = new Date(najdeny.dt * 1000).getHours()
 
     console.log(cas);
+console.log("kokokokokoko");
 
-document.body.scrollTo({
+window.scrollTo({
   top: 0,
   behavior: "smooth"
 });
@@ -320,11 +322,12 @@ textvacstblikblikb.textContent = "lloom"
     
 
 
-    kontainerEl.innerHTML = ``
+  body.innerHTML = ""
 
-    kontainerEl.append(Hore())
-    kontainerEl.append(Stred())
-    kontainerEl.append(Dole())
+    body.append(Hore())
+    body.append(Stred())
+    body.append(Dole())
+        body.append(Ostatnekrajiny())
 
 
 

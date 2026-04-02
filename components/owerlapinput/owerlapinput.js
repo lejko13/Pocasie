@@ -29,6 +29,8 @@ export const Owerlapinput  = () => {
 const api = "1b7dcddb27a5652879e1c24b4c14ad52"
 
 
+const body = document.body
+
 
      const owerlapinput = document.createElement("div")
         owerlapinput.className = "owerlapinput"
@@ -224,8 +226,8 @@ const finakolko = async () => {
 
 
   try {
-    kontainer.innerHTML = ""
-    dokument.innerHTML = ""
+    body.innerHTML = ""
+    // dokument.innerHTML = ""
       const dokoncene = await halvnedata()
       const dokoncenevsetko  = await vedlajsiedata()
   
@@ -276,10 +278,10 @@ const finakolko = async () => {
           console.log(novedatnaswiper);
           
   Gradinetfunkcia()
-      kontainer.append(Hore())
-      kontainer.append(Stred())
-      kontainer.append(Dole())
-      dokument.append(Ostatnekrajiny())
+      body.append(Hore())
+      body.append(Stred())
+      body.append(Dole())
+      body.append(Ostatnekrajiny())
       // dokument.append(Gridmapovanie())
       
       
@@ -294,7 +296,8 @@ const finakolko = async () => {
 
 finakolko()
 
-     document.body.classList.remove('no-scroll');
+     document.documentElement.style.overflow = "auto";
+body.style.overflow = "auto";
     
   
   }
@@ -320,7 +323,8 @@ finakolko()
 const kontrloaaa = (e) => {
   if (e.target === e.currentTarget || e.target === klik) {
       owerlapinput.remove()
-    document.body.classList.remove('no-scroll');
+  document.documentElement.style.overflow = "auto";
+body.style.overflow = "auto";
 
 
        

@@ -18,14 +18,16 @@ import { Gradinetfunkcia } from '../../components/gradinetfunkcia/gradinetfunkci
 
 export const AppRender = async () => {
 setInterval(() => {
-  app.style.background = Gradinetfunkcia();
+
 }, 60000)
 
-app.style.background = Gradinetfunkcia()
+
 const kontainer = document.createElement("div")
 kontainer.className = "kontainer"
 
-app.appendChild(kontainer)
+
+
+    const body = document.body
 
 const api = "1b7dcddb27a5652879e1c24b4c14ad52"
 
@@ -106,10 +108,10 @@ try {
         console.log(novedatnaswiper);
         
 Gradinetfunkcia()
-    kontainer.append(Hore())
-    kontainer.append(Stred())
-    kontainer.append(Dole())
-    dokument.append(Ostatnekrajiny())
+    body.append(Hore())
+    body.append(Stred())
+    body.append(Dole())
+    body.append(Ostatnekrajiny())
     // dokument.append(Gridmapovanie())
     
     

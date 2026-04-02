@@ -15,7 +15,7 @@
     border-radius:var(  --radius);
     /* padding: 12px; */
     display: flex;
-     height: 45px;
+     height: 50px;
      padding: 0px 15px;
     /* height: 40px; */
     justify-content: space-between;
@@ -42,7 +42,7 @@ border-radius: 22px;
     justify-content: center;
 }
 .spodnacast{
-    height: fit-content;
+    height: 50px;
     width: 100%;
     display: flex;
     /* grid-template-columns: 1fr 1fr; */
@@ -82,8 +82,8 @@ flex-direction: column;
 }
 .pravastrana{
     display: flex;
-    align-items: start;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
     /* background-color: rgb(68, 255, 0); */
 }
 /* .texthoreprava{

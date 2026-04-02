@@ -15,6 +15,8 @@ export const Owerlap2 = ({vypcet,obrazok,maximalna,minimalna,vietorhodnota,mesia
     const dalej = document.createElement("div")
         dalej.className = "dalej"
 
+    const body = document.body
+
     const owerlap2 = document.createElement("div")
     owerlap2.className = "owerlap2"
 
@@ -45,7 +47,14 @@ export const Owerlap2 = ({vypcet,obrazok,maximalna,minimalna,vietorhodnota,mesia
 const odstranenei = (e) => {
     if (e.target === e.currentTarget) {
         owerlap2.remove()
+
+        document.documentElement.style.overflowY = "auto"
+        body.style.overflowY = "auto"
+
     };
+
+
+    
 
 
 };
@@ -88,6 +97,9 @@ llplplplplp.append(ikona3)
 
 const anoklik = () => {
     owerlap2.remove()
+
+ document.documentElement.style.overflowY = "auto"
+        body.style.overflowY = "auto"
     
 }
 console.log(llplplplplp);
