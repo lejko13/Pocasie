@@ -123,6 +123,12 @@ html, body {
 }
 } */
 
+
+.lentakabysomvidle{
+  height: 500px;
+  width: 100%;
+  background-color: aqua;
+}
 @media (min-width: 600px) {
   #druhacstr{
   display: none;
