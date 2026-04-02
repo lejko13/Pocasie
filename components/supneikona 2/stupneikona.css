@@ -1,0 +1,10 @@
+.ikonahakvna{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 22px;
+    color: white;
+    width: 30px;
+    /* background-color: rgb(0, 0, 0); */
+}

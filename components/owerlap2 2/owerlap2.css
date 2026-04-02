@@ -1,0 +1,39 @@
+.owerlap2{
+    inset: 0;
+
+    position: absolute;
+    z-index: 100;
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+
+        color: rgb(255, 255, 255);
+/* background-color: red; */
+backdrop-filter: blur(15px);padding: 20px;
+    background-color: rgba(91, 91, 91, 0.399);
+}
+.klii{
+    height: 15px;
+    width: 15px;
+    
+    border-radius: 99px;
+    background-color: var(--blur2);
+}
+.horehalvanavcas{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 0px 15px;
+    border-radius: var(  --radius);
+    width: 100%;
+    background-color:var(--blur);
+}
+.hlavnacast32{
+    height: 100vw;
+    width: 100%;
+     border-radius: var(  --radius);
+    background-color:var(--blur);
+}

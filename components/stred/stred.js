@@ -50,9 +50,9 @@ export const Stred  = () => {
     <div class= "jbnvkjsbjks">
      <div class = "picturewrapper">
     
-    <img  class = "obrzsekoko"src="${najdene.img}" />
+
     
-    
+        <img  class = "obrzsekoko"src="${najdene.img}" />
     </div>
     
     

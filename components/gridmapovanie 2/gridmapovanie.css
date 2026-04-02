@@ -1,0 +1,17 @@
+.gridmapovanie{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    gap: 10px;
+    background-color: blueviolet;
+}
+.jedended{
+    background-color: aqua;
+}
+.jedended2{
+    background-color: rgb(7, 205, 40);
+}
+.jedended3{
+    background-color: rgb(255, 0, 0);
+}

@@ -22,14 +22,14 @@ height: 480px;
     /* background-color: aqua; */
 }
 .obrazok{
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255);
         display: flex;
         align-items: center;
         justify-content: center;
         /* padding: 10px; */
         height:100%;
         /* aspect-ratio: 9/9; */
-        width: 38vw;
+       
        
 }
 .llplplpnjhkbhj{
@@ -132,19 +132,20 @@ height: 480px;
     font-size: 13px;
 }
 .obrzsekoko{
-    height: 50vw;
+    height: 220px;
     position: absolute;
-    width: 50vw;
+    width: 220px;
     /* background-color: aqua; */
 }
 .picturewrapper{
-height: 40vw;
-width:  40vw;
+height: 220px;
+width:  220px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
     position: relative;
-    /* background-color: brown; */
+    background-color: brown;
 }
 .virotrkokotin{
     height: fit-content;
@@ -189,40 +190,3 @@ justify-content: center;
 
 
 
-
-@media (min-width: 430px) {
-  .obrzsekoko{
-    height: 40vw;
-    position: absolute;
-    width: 40vw;
-    /* background-color: aqua; */
-}
-.picturewrapper{
-     height: 53vw;
- 
-
-
-}
-
-}
-
-@media (min-width: 600px) {
-   .stred{
-    height: 10px !important;
-   }
-   .obrzsekoko{
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    /* background-color: aqua; */
-}
-.picturewrapper{
-height: 10px;
-width:  10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    /* background-color: brown; */
-}
-}
