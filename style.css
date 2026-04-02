@@ -11,6 +11,7 @@ html, body {
 
   /* ❌ odstráň toto */
   /* overflow: auto; */
+  background-color: aqua;
 
   overflow-x: hidden;
   scrollbar-width: none;
@@ -26,11 +27,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body::after {
-  content: "";
-  display: block;
-  height: 100px;
-}
+
 
 :root {
   --radius:22px;
@@ -60,30 +57,13 @@ body::after {
 }
 
 /* tvoj app container */
-#app {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  
-  /* background-color: aqua; */
-  /* background: #920d0d; */
-/* background: linear-gradient(0deg,rgba(0, 0, 0, 1) 3%, rgba(0, 38, 255, 1) 32%, rgba(0, 212, 255, 1) 89%); */
-  /* padding:  20px; */
 
-}
 
-@media (min-width: 430px) {
-  #app {
-  height: fit-content;
-
-}
-}
 
 
 
 .kontainer{
-    flex: 1;
+    /* flex: 1;/ */
     pointer-events: auto;
     /* display: grid; */
     display: flex;
@@ -93,7 +73,7 @@ body::after {
     margin: 20px;
     justify-content: space-between;
     /* grid-template-rows: auto auto auto; */
-    /* background-color: red; */
+    background-color: red;
 }
 #druhacstr{
   height: fit-content;
@@ -109,31 +89,6 @@ body::after {
 body.no-scroll {
   overflow: hidden; /* zablokuje rolovanie */
 }
-/* 
-
-
-@media (min-width: 600px) {
-  .kontainer {
-display: none;
-opacity: 0;
-pointer-events: none;
-}
-#druhacstr{
-  display: none;
-  height: 0px;
-}
-  #app {
-  height: 100%;
-
-}
-html, body {
-  background-color: aqua;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-} */
 
 
 .lentakabysomvidle{
