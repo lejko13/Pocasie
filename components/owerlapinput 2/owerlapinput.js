@@ -124,7 +124,7 @@ const inputlogika = (e) => {
 };
 
 // logika
-        setTimeout(() => {input.focus()}, 0)
+
 
         klik.appendChild(wraperko)
         klik.appendChild(vysledky)
@@ -152,7 +152,7 @@ const kontrloaaa = (e) => {
         // document.addEventListener("click" , kontrola)
         input.addEventListener("input" , inputlogika)
 
-
+        setTimeout(() => {input.focus()}, 10)
 
         return owerlapinput
    
