@@ -48,7 +48,7 @@ const dniky = [
   { id: 4, name: "Štvrtok", short: "Št" },
   { id: 5, name: "Piatok", short: "Pi" },
   { id: 6, name: "Sobota", short: "So" },
-  { id: 7, name: "Nedeľa", short: "Ne" }
+  { id: 0, name: "Nedeľa", short: "Ne" }
 ];
 
 
@@ -291,7 +291,7 @@ body.style.overflow = "hidden";
 
   const deniee = novydatum.getDay()
 
-  // console.log(deniee);
+  console.log(deniee);
   
 
   const denuzfilter = dniky.filter(item => item.id === deniee)
