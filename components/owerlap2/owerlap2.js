@@ -86,14 +86,16 @@ const hlavnacast32 = document.createElement("div")
     hlavnacast32.className = "hlavnacast32"
 
         textoc.innerHTML = `
-       <span class = "llplplplplp">
-         
-       </span>
-        <div class = "horrehreo">${informacie.krajina}</div>
-        <div  class = "horrehreo">${informacie.nazov}</div>
+      
+       <div class = "lokoko">
+   <span class = "texoooll">Max: ${maximalna}${informacie.ikonastupen}</span>
+  
+   <span class = "texoooll">Min: ${minimalna}${informacie.ikonastupen}</span>
+
+    
+   </div>
         `
-const llplplplplp = textoc.querySelector(".llplplplplp")
-llplplplplp.append(ikona3)
+
 
 const anoklik = () => {
     owerlap2.remove()
@@ -102,7 +104,7 @@ const anoklik = () => {
         body.style.overflowY = "auto"
     
 }
-console.log(llplplplplp);
+
 
 klii.addEventListener("click" , anoklik)
 
@@ -216,8 +218,8 @@ horehalvanavcas2.append(xikon33a,nazovii,klii)
   owerlap2.append(horehalvanavcas)
 
   owerlap2.append(hlavnacast32)
-  owerlap2.append(novyuplne)
-  owerlap2.append(populacia)
+//   owerlap2.append(novyuplne)
+//   owerlap2.append(populacia)
 
 
 
