@@ -24,6 +24,7 @@ const dokument = document.getElementById("druhacstr")
 console.log(dokument);
 
 
+const body = document.body
 
 
 
@@ -49,13 +50,13 @@ else{
 
 console.log(kontainer);
 
-kontainer.innerHTML = ""
-dokument.innerHTML = ""
+body.innerHTML = ""
+// dokument.innerHTML = ""
 
- kontainer.append(Hore())
-    kontainer.append(Stred())
-    kontainer.append(Dole())
-    dokument.append(Ostatnekrajiny())
+ body.append(Hore())
+    body.append(Stred())
+    body.append(Dole())
+    body.append(Ostatnekrajiny())
     
 }
 ikonahakvna.addEventListener('click' , zmena)

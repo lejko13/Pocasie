@@ -53,8 +53,8 @@ console.log(body);
 
 setInterval(() => {
 
- lenpagenabreak.style.background = Gradinetfunkcia();
-  app.style.background = Gradinetfunkcia();
+//  lenpagenabreak.style.background = Gradinetfunkcia();
+//   app.style.background = Gradinetfunkcia();
 }, 10000)
 
 
