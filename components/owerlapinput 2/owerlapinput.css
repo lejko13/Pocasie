@@ -27,6 +27,7 @@ background-color: var(--blur);
       box-shadow: var( --tien);
   border-radius: 22px;
   border: none;
+  font-size: 17px;
   outline: none;
 }
 input::placeholder {
