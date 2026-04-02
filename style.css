@@ -5,14 +5,16 @@
   box-sizing: border-box;
 }
 html, body {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
-font-family: 'Inter', sans-serif;
-  overflow: auto; /* rolovanie zostáva */
-  scrollbar-width: none; /* Firefox */
-  /* background-color: rgb(242, 0, 0); */
-}
+  font-family: 'Inter', sans-serif;
 
+  /* ❌ odstráň toto */
+  /* overflow: auto; */
+
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
 /* pre Chrome, Edge, Safari */
 body::-webkit-scrollbar {
   width: 0; /* skryje scroll bar */
