@@ -73,14 +73,17 @@ lavastarna.appendChild(texthoreprava2)
 
 
 // funkcie
-  const funkcia = (e) => {
-    e.stopPropagation()
-document.documentElement.style.overflow = "hidden";
-body.style.overflow = "hidden";
+const funkcia = (e) => {
+  e.stopPropagation();
 
- 
-        document.body.append(Owerlapinput())
-}
+  const scrollY = window.scrollY;
+
+body.style.position = "fixed";
+  body.style.top = `-${scrollY}px`;
+  body.style.width = "100%";
+
+  body.append(Owerlapinput());
+};
 
     hore.append(Stupneikona())
     hore.appendChild(lentak)

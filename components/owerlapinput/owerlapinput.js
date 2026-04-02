@@ -296,8 +296,16 @@ const finakolko = async () => {
 
 finakolko()
 
-     document.documentElement.style.overflow = "auto";
-body.style.overflow = "auto";
+const scrollY = Math.abs(parseInt(document.body.style.top || "0"));
+
+document.body.style.position = "";
+document.body.style.top = "";
+document.body.style.width = "";
+
+document.documentElement.style.overflow = "auto";
+document.body.style.overflow = "auto";
+
+window.scrollTo(0, scrollY);
     
   
   }
@@ -322,16 +330,18 @@ body.style.overflow = "auto";
 
 const kontrloaaa = (e) => {
   if (e.target === e.currentTarget || e.target === klik) {
-      owerlapinput.remove()
-  document.documentElement.style.overflow = "auto";
-body.style.overflow = "auto";
 
+    const scrollY = Math.abs(parseInt(document.body.style.top || "0"));
 
-       
+    owerlapinput.remove();
+
+    body.style.position = "";
+body.style.top = "";
+body.style.width = "";
+
+    window.scrollTo(0, scrollY);
   }
-
- 
-}
+};
 
 
         owerlapinput.addEventListener("click" , kontrloaaa)
