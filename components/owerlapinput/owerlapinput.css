@@ -78,7 +78,7 @@ font-size: 13px;
 }
 .vysledky{
   min-height: 1px ;
-  max-height: 450px;
+  max-height: 200px;
     align-items: center;
     width: 100%;
     box-shadow: var(--tien);
