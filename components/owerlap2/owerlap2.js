@@ -156,7 +156,7 @@ najdenydolnywrpaer.appendChild(Zobrazenie({
     text:"/Vlhkost.webp",
     druhytext:hodnotavlhkost,
     kolko:"%",
-     najdene:"/dazd.png"
+     najdene:"/dazd.webp"
 }))
 
 // texthoreprava2.append(ikona3,textoc)
