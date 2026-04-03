@@ -2,7 +2,7 @@ export const weatherList = [
   {
     main: "Clear",
     mainSk: "Jasno",
-    img: '/Partly Sunny.png' ,
+    img: '/polosuny.webp' ,
     descriptions: [
       { text: "clear sky", textSk: "jasná obloha", }
     ]
@@ -10,7 +10,7 @@ export const weatherList = [
   {
     main: "Clouds",
     mainSk: "Oblačno",
-        img: "/oblacno.png" ,
+        img: "/oblacno.webp" ,
     descriptions: [
       { text: "few clouds", textSk: "malá oblačnosť" },
       { text: "scattered clouds", textSk: "roztrúsené oblaky"},
@@ -21,7 +21,7 @@ export const weatherList = [
   {
     main: "Rain",
     mainSk: "Dážď",
-      img: "../public/dazd.png" ,
+      img: "/dazd.webp" ,
     descriptions: [
       { text: "light rain", textSk: "slabý dážď" },
       { text: "moderate rain", textSk: "mierny dážď" },
@@ -31,7 +31,7 @@ export const weatherList = [
   {
     main: "Drizzle",
     mainSk: "Mrholenie",
-     img: "../public/mrholenie.png" ,
+     img: "/mrholenie.webp" ,
     descriptions: [
       { text: "light intensity drizzle", textSk: "slabé mrholenie" },
       { text: "drizzle", textSk: "mrholenie" },
@@ -41,7 +41,7 @@ export const weatherList = [
   {
     main: "Thunderstorm",
     mainSk: "Búrka",
-      img: "../public/burka.png" ,
+      img: "/burka2.webp" ,
     descriptions: [
       { text: "thunderstorm", textSk: "búrka" },
       { text: "heavy thunderstorm", textSk: "silná búrka" }
@@ -50,7 +50,7 @@ export const weatherList = [
   {
     main: "Snow",
     mainSk: "Sneh",
-          img: "../public/sneh.png" ,
+          img: "/sneh.webp" ,
     descriptions: [
       { text: "snow", textSk: "sneženie" },
       { text: "heavy snow", textSk: "silné sneženie" },
@@ -60,7 +60,7 @@ export const weatherList = [
   {
     main: "Mist",
     mainSk: "Opar",
-           img: "../public/oblacno.png" ,
+           img: "/oblacno.webp" ,
     descriptions: [
       { text: "mist", textSk: "opar" }
     ]
@@ -68,7 +68,7 @@ export const weatherList = [
   {
     main: "Smoke",
     mainSk: "Dym",
-     img: "../public/oblacno.png" ,
+     img: "/oblacno.webp" ,
     descriptions: [
       { text: "smoke", textSk: "dym" }
     ]
@@ -76,7 +76,7 @@ export const weatherList = [
   {
     main: "Haze",
     mainSk: "Opar (zákal)",
-       img: "../public/oblacno.png" ,
+       img: "/oblacno.webp" ,
     descriptions: [
       { text: "haze", textSk: "opar" }
     ]
@@ -84,7 +84,7 @@ export const weatherList = [
   {
     main: "Dust",
     mainSk: "Prach",
-    img: "../public/oblacno.png" ,
+    img: "/oblacno.webp" ,
     descriptions: [
       { text: "dust", textSk: "prach" }
     ]
@@ -108,7 +108,7 @@ export const weatherList = [
   {
     main: "Ash",
     mainSk: "Popol",
-    img: "../public/oblacno.png" ,
+    img: "/oblacno.webp" ,
     descriptions: [
       { text: "volcanic ash", textSk: "sopečný popol" }
     ]
@@ -116,7 +116,7 @@ export const weatherList = [
   {
     main: "Squall",
     mainSk: "Búrlivý vietor",
-    img: "../public/Windy.png" ,
+    img: "/Windy.webp" ,
     descriptions: [
       { text: "squalls", textSk: "nárazový vietor" }
     ]
@@ -124,7 +124,7 @@ export const weatherList = [
   {
     main: "Tornado",
     mainSk: "Tornádo",
-          img: "../public/tornado.png" ,
+          img: "/tornado.webp" ,
     descriptions: [
       { text: "tornado", textSk: "tornádo" }
     ]
