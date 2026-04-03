@@ -22,10 +22,31 @@ import {grafdata,Setgraf} from './ulozenie/graf.js'
 
 import {Gradinetfunkcia} from './components/gradinetfunkcia/gradinetfunkcia.js'
 
+import {Textclpsed} from './components/kedsazavrievsetko/kedsazavrievsetko.js'
 
+import {Textovacasticekok} from './components/textovacastikce/textovacstik.js'
 const lenpagenabreak = document.querySelector(".lenpagenabreak")
 console.log(lenpagenabreak);
 //  lenpagenabreak.style.background = Gradinetfunkcia();
+
+const mq = window.matchMedia("(min-width: 600px)");
+
+const body = document.body;
+
+
+
+// mq.addEventListener("change", (e) => {
+//   if (e.matches) {
+//     body.innerHTML = ""
+//     body.append(Textovacasticekok())
+//   } else {
+//   body.append(Hore())
+//     body.append(Stred())
+//     body.append(Dole())
+//     body.append(Ostatnekrajiny())
+//   }
+// });
+
 
 
 
@@ -44,7 +65,7 @@ tubuudinkoy.forEach(element => {
 
 
 
-const body = document.body;
+
 
 console.log(body);
 
@@ -150,6 +171,7 @@ Gradinetfunkcia()
     body.append(Stred())
     body.append(Dole())
     body.append(Ostatnekrajiny())
+    body.append(Textclpsed())
  
     
     

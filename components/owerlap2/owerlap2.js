@@ -147,13 +147,13 @@ hlavnacast32.innerHTML = `
 const najdenydolnywrpaer = hlavnacast32.querySelector(`.virotrkokotin`)
 console.log(najdenydolnywrpaer);
 najdenydolnywrpaer.appendChild(Zobrazenie({
-      najdene:"/Windy.png",
+      najdene:"/Windy.webp",
     text:"Vietor",
     druhytext:vietorhodnota,
     kolko:"km/h"
 }))
 najdenydolnywrpaer.appendChild(Zobrazenie({
-    text:"Vlhkost",
+    text:"/Vlhkost.webp",
     druhytext:hodnotavlhkost,
     kolko:"%",
      najdene:"/dazd.png"

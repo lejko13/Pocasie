@@ -1,0 +1,102 @@
+.footer{
+    width: 100%;
+    padding: 10px;
+    border-radius: 22px;
+    background-color: var(--blur);
+    box-shadow: var(--tien);
+    height: fit-content;
+    /* background-color: black; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+}
+.ikoknomom{
+    height: 40px;
+    width: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: var(--blur);
+    box-shadow: var(--tien);
+    font-size: 22px;
+    border-radius: 12px;
+    color: white;
+}
+.ikoknomom2{
+    height: 40px;
+    width: 40px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: var(--blur);
+    box-shadow: var(--tien);
+    font-size: 22px;
+    border-radius: 12px;
+    color: white;
+}
+.ikoknomom3{
+    height: 40px;
+    width: 40px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: var(--blur);
+    box-shadow: var(--tien);
+    font-size: 22px;
+    border-radius: 12px;
+    color: white;
+}
+.ikoknomom4{
+    height: 40px;
+    width: 40px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: var(--blur);
+    box-shadow: var(--tien);
+    font-size: 22px;
+    border-radius: 12px;
+    color: white;
+}
+.dzrilinok{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.texcovac{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .texcovac{
+        display:flex;
+           flex:1;
+           justify-content: center;
+           align-items: center;
+    /* background-color: aqua; */
+}
+.tujstotext{
+    width: fit-content;
+    height: 50px;
+       display:flex;
+      justify-content: center;
+           align-items: center;
+    background-color: var(--blur);
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 22px;
+    box-shadow: var(--tien);
+}
+
+.footer{
+
+   height: 100%;
+       flex-direction: column;
+   width: 100%;
+}
+}

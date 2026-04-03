@@ -107,3 +107,9 @@ body.no-scroll {
   width: 100%;
   background-color: aqua;
 }
+
+@media (min-width: 768px) {
+body{
+ height: 100vh;
+}
+}

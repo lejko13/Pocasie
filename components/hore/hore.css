@@ -142,3 +142,8 @@ flex-direction: column;
     /* height: 20px; */
     width: fit-content;
 }
+@media (min-width: 768px) {
+.celacast{
+   display: none;
+}
+}

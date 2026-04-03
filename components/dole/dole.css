@@ -211,3 +211,9 @@ width: fit-content;
     font-size: 12px;
     /* background-color: black; */
 }
+
+@media (min-width: 768px) {
+.dole{
+   display: none;
+}
+}

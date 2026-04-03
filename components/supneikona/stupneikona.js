@@ -9,6 +9,7 @@ import {Dole} from '../../components/dole/dole.js'
 import {Hore} from '../../components/hore/hore.js'
 import {Stred} from '../../components/stred/stred.js'
 import {Ostatnekrajiny} from '../../components/ostatnedni/ostatnedni.js'
+import {Textclpsed} from '../../components/kedsazavrievsetko/kedsazavrievsetko.js'
 
 export const Stupneikona = () => {
 
@@ -57,6 +58,7 @@ body.innerHTML = ""
     body.append(Stred())
     body.append(Dole())
     body.append(Ostatnekrajiny())
+     body.append(Textclpsed())
     
 }
 ikonahakvna.addEventListener('click' , zmena)

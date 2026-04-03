@@ -21,6 +21,8 @@ import {Ziskaniekrajiny} from '../../components/ziskaniekrajiny/ziskaniekrajiny.
 import {rozdelDatum} from '../../components/zizkamdatum/zizkamdatum.js'
 import {grafdata,Setgraf} from '../../ulozenie/graf.js'
 import {Gradinetfunkcia} from '../../components/gradinetfunkcia/gradinetfunkcia.js'
+
+import {Textclpsed} from '../../components/kedsazavrievsetko/kedsazavrievsetko.js'
 export const Owerlapinput  = () => {
 // elemetny
 
@@ -282,6 +284,7 @@ const finakolko = async () => {
       body.append(Stred())
       body.append(Dole())
       body.append(Ostatnekrajiny())
+      body.append(Textclpsed())
       // dokument.append(Gridmapovanie())
       
       

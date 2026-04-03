@@ -27,7 +27,7 @@ import {Stred} from '../../components/stred/stred.js'
 
 import {Blikam} from '../../components/bikam/blikam.js'
 
-
+import {Textclpsed} from '../../components/kedsazavrievsetko/kedsazavrievsetko.js'
 
 
 
@@ -328,6 +328,7 @@ textvacstblikblikb.textContent = "lloom"
     body.append(Stred())
     body.append(Dole())
         body.append(Ostatnekrajiny())
+body.append(Textclpsed())
 
 
 

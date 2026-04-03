@@ -1,0 +1,6 @@
+.lenejde{
+    width: 100%;
+height: calc(100vh - 20px);
+    padding: 10px;
+    background-color: bisque;
+}
