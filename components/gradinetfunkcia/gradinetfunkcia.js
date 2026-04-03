@@ -14,7 +14,7 @@ const totalMinutes = hodiny * 60 + minuty;
 
 
 
-if (totalMinutes >= 1020 || totalMinutes <= 330) {
+if (totalMinutes >= 1140 || totalMinutes <= 330) {
   SetGradient({
     colors: [
       { color: "var(--modraCierna1)", stop: 3 },

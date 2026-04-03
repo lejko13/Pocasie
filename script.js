@@ -49,11 +49,11 @@ const body = document.body;
 console.log(body);
 
 
-
+ body.style.background = Gradinetfunkcia()
 
 setInterval(() => {
 
-//  lenpagenabreak.style.background = Gradinetfunkcia();
+ body.style.background = Gradinetfunkcia();
 //   app.style.background = Gradinetfunkcia();
 }, 10000)
 
