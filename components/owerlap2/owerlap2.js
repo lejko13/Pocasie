@@ -153,7 +153,7 @@ najdenydolnywrpaer.appendChild(Zobrazenie({
     kolko:"km/h"
 }))
 najdenydolnywrpaer.appendChild(Zobrazenie({
-    text:"/Vlhkost.webp",
+    text:"Vlhkost",
     druhytext:hodnotavlhkost,
     kolko:"%",
      najdene:"/dazd.webp"
